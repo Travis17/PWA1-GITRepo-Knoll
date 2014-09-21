@@ -19,7 +19,7 @@
     var round=0;                            //start first round.
 
     function fight(){                       //create a function for the two players to fight.
-        alert(myArray[0]+":"+myArray[3]+"  *START*  "+myArray[1]+":"+myArray[3]);   //Alert both players names and execute function.
+        document.write(myArray[0]+":"+myArray[3]+"  *START*  "+myArray[1]+":"+myArray[3]);   //Alert both players names and execute function.
         for (var i = 0; i < 10; i++)        //desired formula for the game to run.
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
